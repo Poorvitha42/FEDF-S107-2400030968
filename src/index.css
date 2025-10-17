@@ -1,0 +1,11 @@
+/* Basic global styles */
+:root {
+  --bg: #f3f4f6;
+  --card: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --accent: #2563eb;
+}
+
+html,body,#root { height: 100%; margin: 0; font-family: Inter, Roboto, -apple-system, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+.app { display:flex; align-items:center; justify-content:center; height:100%; padding:20px; }
